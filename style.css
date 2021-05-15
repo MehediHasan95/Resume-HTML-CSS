@@ -24,7 +24,7 @@ body {
 }
 .container .left-side {
   position: relative;
-  background: #003147;
+  background: #161616;
   padding: 40px;
 }
 .profileText {
@@ -113,21 +113,21 @@ body {
   color: #fff;
   font-weight: 300;
 }
-.contactInfo.languages .percent {
+/* .contactInfo.languages .percent {
   position: relative;
   width: 100%;
   height: 6px;
   background: #081921;
   display: block;
   margin-top: 5px;
-}
-.contactInfo.languages .percent div {
+} */
+/* .contactInfo.languages .percent div {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   background: #03a9f4;
-}
+} */
 .container .right-side {
   position: relative;
   background: #fff;
@@ -156,6 +156,7 @@ p {
   margin: 20px 0;
 }
 
+
 .about .box .year_company {
   min-width: 150px;
 }
@@ -173,7 +174,7 @@ p {
   font-size: 16px;
 }
 
-.skills .box {
+.skills .box  {
   position: relative;
   width: 100%;
   display: grid;
@@ -182,8 +183,8 @@ p {
   align-items: center;
 }
 
+
 .skills .box h4 {
-  /* text-transform: uppercase; */
   color: #848c90;
   font-weight: 500;
 }
